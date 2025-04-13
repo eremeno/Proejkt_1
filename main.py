@@ -86,7 +86,7 @@ print(f"There are {lowercase_words} lowercase words.")
 print(f"There are {len(numeric_strings)} numeric strings.")
 print(f"The sum of all the numbers {sum_numbers}")
 print("-" * 40)
-print(f"{'LEN':>3}| {'OCCURENCES':<20}|NR.")
+print(f"{'LEN':>3}| {'OCCURENCES':<28}|NR.")
 print("-" * 40)
 
 # Histogram podle délky slov
@@ -96,4 +96,4 @@ for word in cleaned_words:
 
 for length in sorted(lengths):
     stars = '*' * lengths[length]
-    print(f"{length:>3}| {stars:<20}|{lengths[length]}")
+    print(f"{length:>3}| {stars:<28}|{lengths[length]}")
